@@ -1,0 +1,42 @@
+html {
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+#container{
+ position:relative;
+ margin:100px auto;
+ height:auto;
+ width:405px;
+ border:1px solid #5D5D5D;
+ padding:20px;
+ background: #A2A2A2;
+}
+.row{
+	margin-bottom: 5px;
+}
+.btn-check {
+    font-size: 1.5rem;
+    cursor: pointer;
+	outline: none;
+    border: 1px solid #000000;
+    bbackground-color: rgba(239,239,239,0.75) !important;
+	width: 200px;
+	height: 72px;
+	text-align: center
+}
+.btn-check:hover {
+    border: 1px solid white;
+    color: black;
+    background-color: rgba(142,142,142,0.90) !important; 
+}
+.btn-output {
+    font-size: 2.5rem;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #000000;
+    background-color: rgba(27,125,187,1.00);
+    width: 98px;
+    height: 98px;
+    text-align: center;
+    color: #B70003;
+	margin-bottom: 20px;
+}
